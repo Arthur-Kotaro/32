@@ -1,0 +1,15 @@
+{
+  "name": "Star Wars: Episode IV - A New Hope",
+  "year": 1977,
+  "studio": "Lucasfilm",
+  "country": "United States",
+  "screenwriter": "George Lucas",
+  "director": "George Lucas",
+  "producer": "Gary Kurtz",
+  "cast": {
+    "Mark Hamill": "Luke Skywalker",
+    "Harrison Ford": "Han Solo",
+    "Carrie Fisher": "Princess Leia Organa",
+    "Alec Guinness": "Obi-Wan Kenobi",
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "Jurassic Park": {
+    "year": 1993,
+    "studio": "Universal Pictures",
+    "country": "United States",
+    "screenwriter": "Michael Crichton",
+    "director": "Steven Spielberg",
+    "producer": "Kathleen Kennedy",
+    "cast": {
+      "Sam Neill": "Dr. Alan Grant",
+      "Laura Dern": "Dr. Ellie Sattler",
+      "Jeff Goldblum": "Dr. Ian Malcolm",
+      "Richard Attenborough": "John Hammond",
+    }
+  },
+
+  "Avatar": {
+    "year": 2009,
+    "studio": "20th Century Fox",
+    "country": "United States",
+
+    "screenwriter": "James Cameron",
+    "director": "James Cameron",
+    "producer": "James Cameron",
+    "cast": {
+      "Sam Worthington": "Jake Sully",
+      "Zoe Saldana": "Neytiri",
+      "Sigourney Weaver": "Dr. Grace Augustine",
+
+      "Stephen Lang": "Colonel Miles Quaritch",
+    }
+  },
+
+"Titanic": {
+    "year": 1997,
+    "studio": "Paramount Pictures",
+    "country": "United States",
+
+    "screenwriter": "James Cameron",
+    "director": "James Cameron",
+    "producer": "James Cameron",
+    "cast": {
+      "Leonardo DiCaprio": "Jack Dawson",
+      "Kate Winslet": "Rose DeWitt Bukater",
+      "Billy Zane": "Caledon 'Cal' Hockley",
+      "Kathy Bates": "Molly Brown",
+    }
+  },
+
+"The Avengers": {
+    "year": 2012,
+    "studio": "Marvel Studios",
+    "country": "United States",
+
+    "screenwriter": "Joss Whedon",
+    "director": "Joss Whedon",
+    "producer": "Kevin Feige",
+    "cast": {
+
+
+      "Robert Downey Jr.": "Tony Stark / Iron Man",
+      "Chris Evans": "Steve Rogers / Captain America",
+
+      "Scarlett Johansson": "Natasha Romanoff / Black Widow",
+      "Mark Ruffalo": "Bruce Banner / Hulk",
+    }
+  },
+
+"The Lion King": {
+    "year": 1994,
+    "studio": "Walt Disney Pictures",
+    "country": "United States",
+
+    "screenwriter": "Irene Mecchi",
+    "director": "Roger Allers",
+    "producer": "Don Hahn",
+    "cast": {
+      "Matthew Broderick": "Simba",
+      "James Earl Jones": "Mufasa",
+
+      "Jeremy Irons": "Scar",
+      "Moira Kelly": "Nala",
+    }
+  },
+}
