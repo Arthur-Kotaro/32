@@ -1,26 +1,23 @@
 #include "film.hpp"
-#include <cstdio>
-#include <filesystem>
-#include <string>
-#include <vector>
 
 bool is_digit(char symbol)
 {
    if(symbol >= '0' && symbol <= '9') return true;
    else return false;  
 }
-
-bool RepeatInVec(const std::vector<Genres> & _genres_vec, const int & _genre_num )
+#ifdef USE_GENRES
+bool RepeatInVec(const std::vector<Genres> & _genres_vec, const int & _genre_num)
 {
-    for(int i = 0; i < _genres_vec.size(); ++i)
-        if(_genres_vec[i] == (Genres) _genre_num) return true;
+    for(auto i : _genres_vec)
+        if(i == (Genres) _genre_num) return true;
     return false;
 }
+#endif
 
 unsigned int getYear()
 {
     unsigned int year;
-    time_t now = time(0);
+    time_t now = time(nullptr);
     tm *ltm = localtime(&now);
     unsigned int currentYear = 1900 + ltm->tm_year;
     while (true)
@@ -46,7 +43,7 @@ void Actor::getActorInfo()
     getFullName();
 }
 
-unsigned int getCast(std::vector<Actor> & _castList)
+unsigned int getCast(std::vector<Actor> & _cast_vec)
 {
     unsigned int counter;
     std::string command;
@@ -58,27 +55,22 @@ unsigned int getCast(std::vector<Actor> & _castList)
         {
             Actor tmp;
             tmp.getActorInfo();
-           _castList.push_back(tmp); 
+            _cast_vec.push_back(tmp);
         } 
         else if(command == "no" || command == "NO" || command == "N" || command == "n") break;
         else continue;
     }
     return counter;
 }
-
-
-
-void Film::getFilmDescription()
+#ifdef USE_GENRES
+void Film::getGenres()
 {
-    std::cout<< "Enter the film name: ";
-    getline(std::cin, filmName);
-    std::cout << "\nChoose genres. Type numers of genres and press \"Enter\".\n\n";
+    std::cout << "\nChoose genres. Type numbers of genres and press \"Enter\".\n\n";
     std::cout << "(1) action,\t\t(2) adventure,\t\t(3) comedy,\n(4) drama,\t\t(5) horror,\t\t(6) thriller,\n(7) romance,\t\t(8) science,\t\t(9) fiction,\n(10) fantasy,\t\t(11) mystery,\t\t(12) animation,\n(13) documentary,\t(14) musical,\t\t(15) historical,\n(16) war,\t\t(17) western,\t\t(18) superhero,\n(19) biographical,\t(20) family,\t\t(21) sport\n";
     std::string genresString;
     std::cout << "\nGenres numbers: ";
     getline(std::cin, genresString);
-
-    std::string tmp_string ="";
+    std::string tmp_string;
     int genre_num;
     for (int i = 0; i < genresString.length(); ++i)
     {
@@ -101,23 +93,35 @@ void Film::getFilmDescription()
             i = n;
         }
     }
-#ifdef DEBUG
+}
+#endif
+
+
+void Film::getFilmDescription()
+{
+    std::cout<< "Enter the film name: ";
+    getline(std::cin, filmName);
+
+#ifdef USE_GENRES
+    Film::getGenres();
+#endif
+
+#if defined USE_GENRES && defined DEBUG
     std::cout << "Genres vector: ";
     for(int i = 0; i < genres_vec.size(); i++) std::cout << genres_vec[i] << ' ';
     std::cout << std::endl;
 #endif
+
     std::cout << "Enter country name: ";
     getline(std::cin, countryName);
     std::cout << "Enter name of film company: ";
     getline(std::cin, filmStudioName);
-
     std::cout << "Who is a producer?\t";
     producer.getFullName();
     std::cout << "Who is a director?\t";
     director.getFullName();
     std::cout << "Who is writer?\t\t";
     writer.getFullName();
-    getCast(castList);
-
+    getCast(cast_vec);
     yearOfProduction = getYear();
 }

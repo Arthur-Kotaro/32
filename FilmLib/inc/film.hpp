@@ -1,8 +1,14 @@
 #pragma once
+
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cstdio>
+//#include <filesystem>
 
+//#define USE_GENRES
+
+#ifdef USE_GENRES
 enum Genres {
 action,       adventure, comedy,
 drama,        horror,    thriller,
@@ -12,6 +18,7 @@ documentary,  musical,   historical,
 war,          western,   superhero,
 biographical, family,    sport
 };
+#endif
 
 struct Person
 {
@@ -29,18 +36,16 @@ struct Actor : Person
 struct Film
 {
     std::string filmName;
-    std::vector<Genres> genres_vec;
     std::string countryName;
-    unsigned int yearOfProduction;
-    
     std::string filmStudioName;
+    unsigned int yearOfProduction;
     Person producer;
     Person director;
     Person writer;
-    std::vector<Actor> castList;
-
+    std::vector<Actor> cast_vec;
+#ifdef USE_GENRES
+    std::vector<Genres> genres_vec;
+    void getGenres();
+#endif
     void getFilmDescription();
-
 };
-
-

@@ -6,12 +6,12 @@
     "screenwriter": "Michael Crichton",
     "director": "Steven Spielberg",
     "producer": "Kathleen Kennedy",
-    "cast": {
-      "Sam Neill": "Dr. Alan Grant",
-      "Laura Dern": "Dr. Ellie Sattler",
-      "Jeff Goldblum": "Dr. Ian Malcolm",
-      "Richard Attenborough": "John Hammond"
-    }
+    "cast": [
+    {"role": "Dr. Alan Grant", "name": "Sam", "surname": "Neill"},
+    {"role": "Dr. Ellie Sattler", "name": "Laura", "surname": "Dern"},
+    {"role": "Dr. Ian Malcolm", "name": "Jeff", "surname": "Goldblum"},
+    {"role": "John Hammond", "name": "Richard", "surname": "Attenborough"},
+    ]
   },
 
   "Avatar": {
@@ -21,12 +21,12 @@
     "screenwriter": "James Cameron",
     "director": "James Cameron",
     "producer": "James Cameron",
-    "cast": {
-      "Sam Worthington": "Jake Sully",
-      "Zoe Saldana": "Neytiri",
-      "Sigourney Weaver": "Dr. Grace Augustine",
-      "Stephen Lang": "Colonel Miles Quaritch"
-    }
+    "cast": [
+    {"role": "Jake Sully", "name": "Sam", "surname": "Worthington"},
+    {"role": "Neytiri", "name": "Zoe", "surname": "Saldana"},
+    {"role": "Dr. Grace Augustine", "name": "Sigourney", "surname": "Weaver"},
+    {"role": "Colonel Miles Quaritch", "name": "Stephen", "surname": "Lang"},
+    ]
   },
 
 "Titanic": {
@@ -36,12 +36,12 @@
     "screenwriter": "James Cameron",
     "director": "James Cameron",
     "producer": "James Cameron",
-    "cast": {
-      "Leonardo DiCaprio": "Jack Dawson",
-      "Kate Winslet": "Rose DeWitt Bukater",
-      "Billy Zane": "Caledon 'Cal' Hockley",
-      "Kathy Bates": "Molly Brown"
-    }
+    "cast": [
+    {"role": "Jack Dawson", "name": "Leonardo", "surname": "DiCaprio"},
+    {"role": "Rose DeWitt Bukater", "name": "Kate", "surname": "Winslet"},
+    {"role": "Caledon 'Cal' Hockley", "name": "Billy", "surname": "Zane"},
+    {"role": "Molly Brown", "name": "Kathy", "surname": "Bates"},
+    ]
   },
 
 "The Avengers": {
@@ -51,28 +51,26 @@
     "screenwriter": "Joss Whedon",
     "director": "Joss Whedon",
     "producer": "Kevin Feige",
-    "cast": {
-      "Robert Downey Jr.": "Tony Stark / Iron Man",
-      "Chris Evans": "Steve Rogers / Captain America",
-      "Scarlett Johansson": "Natasha Romanoff / Black Widow",
-      "Mark Ruffalo": "Bruce Banner / Hulk"
-    }
+    "cast": [
+    {"role": "Tony Stark / Iron Man", "name": "Robert", "surname": "Downey_Jr."},
+    {"role": "Steve Rogers / Captain America", "name": "Chris", "surname": "Evans"},
+    {"role": "Natasha Romanoff / Black Widow", "name": "Scarlett", "surname": "Johansson"},
+    {"role": "Bruce Banner / Hulk", "name": "Mark", "Ruffalo": "Bates"},
+    ]
   },
 
 "The Lion King": {
     "year": 1994,
     "studio": "Walt Disney Pictures",
     "country": "United States",
-
     "screenwriter": "Irene Mecchi",
     "director": "Roger Allers",
     "producer": "Don Hahn",
-    "cast": {
-      "Matthew Broderick": "Simba",
-      "James Earl Jones": "Mufasa",
-
-      "Jeremy Irons": "Scar",
-      "Moira Kelly": "Nala"
-    }
+    "cast": [
+    {"role": "Simba", "name": "Matthew", "surname": "Broderick"},
+    {"role": "Mufasa", "name": "James", "surname": "Earl_Jones"},
+    {"role": "Scar", "name": "Jeremy", "surname": "Irons"},
+    {"role": "Nala", "name": "Moira", "Ruffalo": "Kelly"},
+    ]
   }
 }
