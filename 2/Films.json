@@ -10,7 +10,7 @@
     {"role": "Dr. Alan Grant", "name": "Sam", "surname": "Neill"},
     {"role": "Dr. Ellie Sattler", "name": "Laura", "surname": "Dern"},
     {"role": "Dr. Ian Malcolm", "name": "Jeff", "surname": "Goldblum"},
-    {"role": "John Hammond", "name": "Richard", "surname": "Attenborough"},
+    {"role": "John Hammond", "name": "Richard", "surname": "Attenborough"}
     ]
   },
 
@@ -25,7 +25,7 @@
     {"role": "Jake Sully", "name": "Sam", "surname": "Worthington"},
     {"role": "Neytiri", "name": "Zoe", "surname": "Saldana"},
     {"role": "Dr. Grace Augustine", "name": "Sigourney", "surname": "Weaver"},
-    {"role": "Colonel Miles Quaritch", "name": "Stephen", "surname": "Lang"},
+    {"role": "Colonel Miles Quaritch", "name": "Stephen", "surname": "Lang"}
     ]
   },
 
@@ -40,7 +40,7 @@
     {"role": "Jack Dawson", "name": "Leonardo", "surname": "DiCaprio"},
     {"role": "Rose DeWitt Bukater", "name": "Kate", "surname": "Winslet"},
     {"role": "Caledon 'Cal' Hockley", "name": "Billy", "surname": "Zane"},
-    {"role": "Molly Brown", "name": "Kathy", "surname": "Bates"},
+    {"role": "Molly Brown", "name": "Kathy", "surname": "Bates"}
     ]
   },
 
@@ -55,7 +55,7 @@
     {"role": "Tony Stark / Iron Man", "name": "Robert", "surname": "Downey_Jr."},
     {"role": "Steve Rogers / Captain America", "name": "Chris", "surname": "Evans"},
     {"role": "Natasha Romanoff / Black Widow", "name": "Scarlett", "surname": "Johansson"},
-    {"role": "Bruce Banner / Hulk", "name": "Mark", "Ruffalo": "Bates"},
+    {"role": "Bruce Banner / Hulk", "name": "Mark", "Ruffalo": "Bates"}
     ]
   },
 
@@ -70,7 +70,7 @@
     {"role": "Simba", "name": "Matthew", "surname": "Broderick"},
     {"role": "Mufasa", "name": "James", "surname": "Earl_Jones"},
     {"role": "Scar", "name": "Jeremy", "surname": "Irons"},
-    {"role": "Nala", "name": "Moira", "Ruffalo": "Kelly"},
+    {"role": "Nala", "name": "Moira", "Ruffalo": "Kelly"}
     ]
   }
 }
