@@ -10,7 +10,7 @@
       "Sam Neill": "Dr. Alan Grant",
       "Laura Dern": "Dr. Ellie Sattler",
       "Jeff Goldblum": "Dr. Ian Malcolm",
-      "Richard Attenborough": "John Hammond",
+      "Richard Attenborough": "John Hammond"
     }
   },
 
@@ -18,7 +18,6 @@
     "year": 2009,
     "studio": "20th Century Fox",
     "country": "United States",
-
     "screenwriter": "James Cameron",
     "director": "James Cameron",
     "producer": "James Cameron",
@@ -26,8 +25,7 @@
       "Sam Worthington": "Jake Sully",
       "Zoe Saldana": "Neytiri",
       "Sigourney Weaver": "Dr. Grace Augustine",
-
-      "Stephen Lang": "Colonel Miles Quaritch",
+      "Stephen Lang": "Colonel Miles Quaritch"
     }
   },
 
@@ -35,7 +33,6 @@
     "year": 1997,
     "studio": "Paramount Pictures",
     "country": "United States",
-
     "screenwriter": "James Cameron",
     "director": "James Cameron",
     "producer": "James Cameron",
@@ -43,7 +40,7 @@
       "Leonardo DiCaprio": "Jack Dawson",
       "Kate Winslet": "Rose DeWitt Bukater",
       "Billy Zane": "Caledon 'Cal' Hockley",
-      "Kathy Bates": "Molly Brown",
+      "Kathy Bates": "Molly Brown"
     }
   },
 
@@ -51,18 +48,14 @@
     "year": 2012,
     "studio": "Marvel Studios",
     "country": "United States",
-
     "screenwriter": "Joss Whedon",
     "director": "Joss Whedon",
     "producer": "Kevin Feige",
     "cast": {
-
-
       "Robert Downey Jr.": "Tony Stark / Iron Man",
       "Chris Evans": "Steve Rogers / Captain America",
-
       "Scarlett Johansson": "Natasha Romanoff / Black Widow",
-      "Mark Ruffalo": "Bruce Banner / Hulk",
+      "Mark Ruffalo": "Bruce Banner / Hulk"
     }
   },
 
@@ -79,7 +72,7 @@
       "James Earl Jones": "Mufasa",
 
       "Jeremy Irons": "Scar",
-      "Moira Kelly": "Nala",
+      "Moira Kelly": "Nala"
     }
-  },
+  }
 }
